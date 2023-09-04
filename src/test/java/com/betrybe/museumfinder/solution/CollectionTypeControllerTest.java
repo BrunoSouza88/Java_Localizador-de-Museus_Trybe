@@ -26,6 +26,9 @@ public class CollectionTypeControllerTest {
   @MockBean
   private CollectionTypeService collectionTypeService;
 
+  public CollectionTypeControllerTest() {
+  }
+
   @DisplayName("Test if countByCollectionTypes returns OK status when called with a single collection type.")
   @Test
   public void testCountSingleCollectionTypeReturnsOkStatus() throws Exception {
